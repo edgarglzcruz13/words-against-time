@@ -14,13 +14,13 @@ Built entirely with vanilla JavaScript, Three.js, and the Web Audio API. No fram
 
 ---
 
-## Play
+## :video_game: Play
 
 **Open `index.bundled.html` in any modern browser.** That's it. Works from `file://`, no server needed.
 
 ---
 
-## How It Works
+## :gear: How It Works
 
 1. You start with **7 letter tiles** on a 3D rack
 2. A **30-second timer** counts down — when it hits zero, a new tile appears
@@ -44,19 +44,19 @@ Click a tile to challenge it. You get **15 seconds** to type **3 words** startin
 
 ---
 
-## Technical Highlights
+## :sparkles: Technical Highlights
 
 ### Single-File Deliverable
 The entire game — 3D renderer, game engine, audio system, 380K-word dictionary — ships as **one self-contained HTML file** (3.8 MB). No external assets, no API calls, no server dependencies.
 
-### 3D Rendering (Three.js r160)
+### :art: 3D Rendering (Three.js r160)
 - Flat tile panels with rounded corners matching the logo aesthetic
 - Per-tile GLSL liquid shader that drains in sync with the timer
 - Particle shatter effects on tile removal
 - Responsive 3D timer ring that adapts to any viewport size
 - Floating purple nebula background particles
 
-### Procedural Audio (Web Audio API)
+### :speaker: Procedural Audio (Web Audio API)
 Every sound is generated in real-time from oscillators and noise — zero audio files:
 - Crystalline chimes for tile appearance
 - Ascending arpeggios for accepted words
@@ -64,7 +64,7 @@ Every sound is generated in real-time from oscillators and noise — zero audio 
 - Pulsing heartbeat when time runs low
 - Grand fanfare for first-place finishes
 
-### 380K-Word Dictionary
+### :books: 380K-Word Dictionary
 Merged from four sources for maximum coverage:
 1. macOS system dictionary
 2. Webster's Second International
@@ -84,7 +84,7 @@ Includes standard English, common slang, proper nouns, brand names, and country 
 
 ---
 
-## Tech Stack
+## :wrench: Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -97,6 +97,12 @@ Includes standard English, common slang, proper nouns, brand names, and country 
 | Delivery | Single HTML file (3.8 MB) |
 
 **Zero frameworks. Zero build tools. Zero runtime dependencies beyond the Three.js CDN.**
+
+---
+
+## :trophy: Community Contest
+
+This project was created with **Claude Opus 4.6** as part of the [Claude Code Community Hackathon](https://claudecode.community/hackathon).
 
 ---
 

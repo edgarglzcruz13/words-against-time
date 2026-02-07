@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.svg" alt="Words Against Time logo" width="120" height="120">
+</p>
+
 # Words Against Time
 
 **A real-time WebGL word game delivered as a single HTML file.**
